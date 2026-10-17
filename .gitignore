@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example
+outputs/*
+!outputs/.gitkeep
+
+# Public raw downloads; provenance remains in manifest.json.
+data/insurance/*.arff
+data/insurance/*.part
+
+# Local installer archives and scratch resources.
+.local/

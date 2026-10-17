@@ -3,6 +3,9 @@ No real language model is called. The behavior is designed to be replayable.
 """
 import os
 import time
+from urllib.request import urlopen
+from urllib.error import URLError
+from urllib.parse import urlsplit
 from opentelemetry import trace
 from opentelemetry.sdk.trace import TracerProvider
 from opentelemetry.sdk.trace.export import BatchSpanProcessor
@@ -10,6 +13,16 @@ from opentelemetry.exporter.otlp.proto.http.trace_exporter import OTLPSpanExport
 from opentelemetry.sdk.resources import Resource
 
 endpoint = os.getenv("OTEL_EXPORTER_OTLP_TRACES_ENDPOINT", "http://localhost:6006/v1/traces")
+# Fail before generating spans if the configured collector is not ready.
+collector = urlsplit(endpoint)
+health_url = f"{collector.scheme}://{collector.netloc}/healthz"
+try:
+    with urlopen(health_url, timeout=10) as health:
+        if health.status != 200:
+            raise SystemExit(f"Phoenix is not ready: {health_url}")
+except (URLError, OSError) as exc:
+    raise SystemExit(f"Phoenix is not ready at {health_url}. Start Docker Compose and retry. ({exc})") from exc
+
 provider = TracerProvider(resource=Resource.create({"service.name": "synthetic-policy-assistant", "service.version": "0.1"}))
 provider.add_span_processor(BatchSpanProcessor(OTLPSpanExporter(endpoint=endpoint, timeout=10)))
 trace.set_tracer_provider(provider)
@@ -47,6 +60,8 @@ def answer_question(question, use_outdated_policy=False):
 
 for faulty in [True, False, True, False]:
     answer_question("What is the daily wire transfer limit?", use_outdated_policy=faulty)
-provider.force_flush(timeout_millis=10000)
+flushed = provider.force_flush(timeout_millis=10000)
 provider.shutdown()
-print("Traces exported to", endpoint, "(open Phoenix UI at http://localhost:6006)")
+if not flushed:
+    raise SystemExit("Trace processor flush timed out; check Phoenix and exporter logs.")
+print("Trace export attempted to", endpoint, "— verify ingestion in Phoenix (http://localhost:6006).")

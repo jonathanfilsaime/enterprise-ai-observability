@@ -1,0 +1,926 @@
+{
+  "scope": "USAA public-information Q&A; not issued-policy coverage decisions",
+  "reviewed_on": "2026-10-17",
+  "cases": [
+    {
+      "id": "USAA-001",
+      "product": "Auto",
+      "source_url": "https://www.usaa.com/insurance/vehicles/auto/",
+      "source_section": "How coverage can meet your needs",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Which coverage addresses damage from hitting another vehicle?",
+      "reference_answer": "Collision coverage addresses crash damage; actual payment depends on purchased coverage and policy terms.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-002",
+      "product": "Motorcycle",
+      "source_url": "https://www.usaa.com/insurance/vehicles/motorcycle/",
+      "source_section": "Coverage to keep you cruising",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Is motorcycle roadside assistance listed as standard or optional?",
+      "reference_answer": "Roadside assistance and trip interruption are listed as optional add-ons.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-003",
+      "product": "RV and motorhome",
+      "source_url": "https://www.usaa.com/insurance/vehicles/rv-motorhome/",
+      "source_section": "What's RV insurance?",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Where does liability for a towed travel trailer extend from?",
+      "reference_answer": "The page says liability extends from the towing vehicle's auto policy; this does not establish physical damage coverage.",
+      "expected_behavior": "abstain_or_qualify",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-004",
+      "product": "ATV and UTV",
+      "source_url": "https://www.usaa.com/insurance/vehicles/atv/",
+      "source_section": "ATV insurance FAQ",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Does the page say ATV racing is normally covered?",
+      "reference_answer": "No. ATV insurance typically does not cover racing or stunts.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-005",
+      "product": "Boat",
+      "source_url": "https://www.usaa.com/insurance/vehicles/boat/",
+      "source_section": "Agreed upon value options",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Is agreed-value protection an available option?",
+      "reference_answer": "Yes. If selected, a covered total loss pays the value listed in the policy, subject to its terms.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-006",
+      "product": "Aviation",
+      "source_url": "https://www.usaa.com/insurance/vehicles/aviation/",
+      "source_section": "Access blocked",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "blocked_cookie_screen",
+      "question": "Does this research establish my aircraft's deductible?",
+      "reference_answer": "No. The linked page returned a cookie screen; no deductible was verified.",
+      "expected_behavior": "abstain_or_qualify",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-007",
+      "product": "Classic car",
+      "source_url": "https://www.usaa.com/insurance/vehicles/classic-collector-car/",
+      "source_section": "What qualifies for classic and collector car insurance?",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Is the described classic-car product intended for my daily primary vehicle?",
+      "reference_answer": "The page describes limited pleasure use and directs primary-vehicle drivers to ordinary auto insurance.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-008",
+      "product": "Bicycle and e-bike",
+      "source_url": "https://www.usaa.com/insurance/vehicles/bike/",
+      "source_section": "What types of bikes are covered?",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Does the bike page include e-bikes among the types offered?",
+      "reference_answer": "Yes, through Markel; the specific e-bike and selected coverage still need confirmation.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-009",
+      "product": "Personal tractor",
+      "source_url": "https://www.usaa.com/insurance/property/farm-tractor-equipment/",
+      "source_section": "What if I make money using my equipment?",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Can I assume personal tractor coverage is suitable for paid work for others?",
+      "reference_answer": "No. The page says income-generating use or work for others likely requires another policy.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-010",
+      "product": "Renters",
+      "source_url": "https://www.usaa.com/insurance/property/renters/",
+      "source_section": "What does USAA Renters Insurance cover?",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Does USAA say renters coverage can protect belongings against flood?",
+      "reference_answer": "Yes, it may; extra coverage may need to be purchased depending on location. Do not guarantee every policy includes it.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-011",
+      "product": "Homeowners",
+      "source_url": "https://www.usaa.com/insurance/property/homeowners/coverage/",
+      "source_section": "Flood insurance",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Does standard homeowners insurance generally cover flood?",
+      "reference_answer": "Generally no; USAA describes separate flood insurance. This is a product-level answer, not a determination for an issued policy.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-012",
+      "product": "Condo",
+      "source_url": "https://www.usaa.com/insurance/property/condo/",
+      "source_section": "What's covered and not covered?",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Does condo insurance usually cover shared grounds and the outside structure?",
+      "reference_answer": "Usually not; the association's master policy often covers those. Review both contracts.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-013",
+      "product": "Landlord",
+      "source_url": "https://www.usaa.com/insurance/property/landlord/",
+      "source_section": "Lost rental income",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Can lost rent be covered while covered damage makes a rental unlivable?",
+      "reference_answer": "It may be covered while repairs occur following a covered loss; it is not a promise to cover every loss of rent.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-014",
+      "product": "Mobile home",
+      "source_url": "https://www.usaa.com/insurance/property/mobile-home/",
+      "source_section": "What's mobile home insurance?; Introducing American Modern",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Which providers are described for manufactured-home protection?",
+      "reference_answer": "The page describes Foremost and American Modern through the USAA Insurance Agency; availability varies.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-015",
+      "product": "High-value home",
+      "source_url": "https://www.usaa.com/insurance/property/homeowners/high-value/",
+      "source_section": "Features to help protect your luxury home",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Does every high-value policy guarantee rebuilding beyond its limit?",
+      "reference_answer": "No. The page says many policies offer guaranteed replacement cost; features depend on carrier and location.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-016",
+      "product": "Personal umbrella",
+      "source_url": "https://www.usaa.com/insurance/umbrella/",
+      "source_section": "What's umbrella insurance?",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "What is the basic role of a personal umbrella policy?",
+      "reference_answer": "It may provide additional liability protection when a covered claim exceeds underlying policy limits; it does not cover every claim.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-017",
+      "product": "Valuable personal property",
+      "source_url": "https://www.usaa.com/insurance/property/personal/vpp/",
+      "source_section": "What's Valuable Personal Property insurance?",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Does the described VPP product have a deductible?",
+      "reference_answer": "The page describes no deductible; coverage remains subject to eligible property and policy terms.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-018",
+      "product": "Cell phone protection",
+      "source_url": "https://www.usaa.com/insurance/property/cell-phone/",
+      "source_section": "Explore protection plans",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Are phone repair and new-phone replacement the same plan?",
+      "reference_answer": "No. The page distinguishes ProtectCELL new-phone replacement from bolt Protect damaged-phone repair; terms differ.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-019",
+      "product": "Collectibles",
+      "source_url": "https://www.usaa.com/insurance/property/collectibles/",
+      "source_section": "New item coverage",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "How long does the page describe automatic protection for new collection additions?",
+      "reference_answer": "30 days, up to $2,000, subject to the actual policy.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-020",
+      "product": "Flood",
+      "source_url": "https://www.usaa.com/insurance/property/flood/",
+      "source_section": "Find the right flood insurance for you",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Does USAA describe both NFIP and private flood options?",
+      "reference_answer": "Yes. It describes NFIP policies, private policies through the agency, and private excess coverage when needed.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-021",
+      "product": "Windstorm",
+      "source_url": "https://www.usaa.com/insurance/property/windstorm/",
+      "source_section": "Get a quote for windstorm coverage",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Can coastal homeowners assume windstorm is included in their home policy?",
+      "reference_answer": "No. The page says coastal homeowners policies may not include it and describes separate agency options.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-022",
+      "product": "Business owners policy",
+      "source_url": "https://www.usaa.com/insurance/business/business-owners-policy/",
+      "source_section": "What's a business owners policy?",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "What three core coverages are combined in a BOP?",
+      "reference_answer": "General liability, property, and business income.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-023",
+      "product": "General liability",
+      "source_url": "https://www.usaa.com/insurance/business/commercial-general-liability/",
+      "source_section": "What's commercial general liability insurance?",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "What business risk does the page describe general liability addressing?",
+      "reference_answer": "Claims from common operational mishaps, such as customer injuries or damage to a client's property, subject to terms.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-024",
+      "product": "Commercial auto",
+      "source_url": "https://www.usaa.com/insurance/business/auto/",
+      "source_section": "Do you need commercial auto insurance?",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Can I assume my personal auto policy fully covers business vehicle use?",
+      "reference_answer": "No. The page says personal auto may not fully cover business use and describes commercial alternatives.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-025",
+      "product": "Workers compensation",
+      "source_url": "https://www.usaa.com/insurance/business/workers-compensation/",
+      "source_section": "Access blocked",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "blocked_cookie_screen",
+      "question": "Does this research establish a waiting period for workers compensation benefits?",
+      "reference_answer": "No. The linked page returned a cookie screen; no waiting period was verified.",
+      "expected_behavior": "abstain_or_qualify",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-026",
+      "product": "Commercial umbrella",
+      "source_url": "https://www.usaa.com/insurance/business/umbrella/",
+      "source_section": "How's it different from excess liability insurance?",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "How does the page distinguish commercial umbrella from excess liability?",
+      "reference_answer": "It describes excess as protection over one business policy per claim and umbrella as potentially spanning multiple policies; terms control.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-027",
+      "product": "Professional liability",
+      "source_url": "https://www.usaa.com/insurance/business/professional-liability/",
+      "source_section": "What's professional liability insurance?",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "What is another name for professional liability?",
+      "reference_answer": "Errors and omissions; it can address claims involving professional mistakes, negligence or bad advice.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-028",
+      "product": "Commercial property",
+      "source_url": "https://www.usaa.com/insurance/business/commercial-property/",
+      "source_section": "What's commercial property insurance?",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Is commercial property only for owned buildings?",
+      "reference_answer": "No. The page discusses owned, leased and home-based business property, subject to coverage terms.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-029",
+      "product": "Farm and ranch",
+      "source_url": "https://mobile.usaa.com/insurance/business/farm-ranch/",
+      "source_section": "What does a farm and ranch insurance policy cover?",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Which partner does the page describe for farm and ranch insurance?",
+      "reference_answer": "Travelers, through the USAA Insurance Agency relationship.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-030",
+      "product": "Commercial cyber",
+      "source_url": "https://www.usaa.com/insurance/business/commercial-cyber-liability/",
+      "source_section": "Get the right cyber protection for your business",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Does the page discuss both first-party and third-party protection?",
+      "reference_answer": "Yes. It distinguishes company-system losses and response from third-party legal exposure; selected terms govern.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-031",
+      "product": "Surety bonds",
+      "source_url": "https://www.usaa.com/insurance/business/surety-bonds/",
+      "source_section": "How a surety bond works",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "If a surety pays a claim, can it try to recover money from the principal?",
+      "reference_answer": "Yes. The page describes the surety seeking recovery from the principal.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-032",
+      "product": "Term life",
+      "source_url": "https://www.usaa.com/insurance/life/term/",
+      "source_section": "Flexible coverage",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "What term lengths are advertised for Eagle Express?",
+      "reference_answer": "10 to 30 years; eligibility, underwriting and state availability apply.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-033",
+      "product": "Permanent life",
+      "source_url": "https://www.usaa.com/insurance/life/permanent/",
+      "source_section": "Related footnotes: policy loans",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Can policy loans affect permanent-life benefits?",
+      "reference_answer": "Yes. The footnote says loans reduce death benefit and cash value and can cause lapse.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-034",
+      "product": "Final expense",
+      "source_url": "https://www.usaa.com/insurance/life/permanent/final-expense/",
+      "source_section": "Coverage for end-of-life costs",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Must the beneficiary use the benefit only for funeral bills?",
+      "reference_answer": "No. The page describes funeral and burial costs, medical bills, debt, or other family needs; policy terms govern payment.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-035",
+      "product": "Annuity",
+      "source_url": "https://www.usaa.com/retirement/annuities/",
+      "source_section": "What's an annuity?",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "What two broad annuity types does the page describe?",
+      "reference_answer": "Deferred and immediate; actual benefits and access to money depend on the contract.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-036",
+      "product": "Medicare",
+      "source_url": "https://www.usaa.com/insurance/health/medicare/plans/",
+      "source_section": "Options for additional coverage",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Are Medicare Supplement and Medicare Advantage the same product?",
+      "reference_answer": "No. The page presents Medigap and Medicare Advantage as distinct coverage options, with availability depending on location.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-037",
+      "product": "Individual and family health",
+      "source_url": "https://www.usaa.com/insurance/health/",
+      "source_section": "Health Insurance",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "What broad individual and family options are mentioned?",
+      "reference_answer": "Comprehensive and short-term options; the overview does not establish any particular plan's covered services.",
+      "expected_behavior": "abstain_or_qualify",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-038",
+      "product": "Dental",
+      "source_url": "https://www.usaa.com/insurance/health/",
+      "source_section": "Dental",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Does the health overview establish that my dental implant is covered?",
+      "reference_answer": "No. It lists dental plans but does not establish implant coverage for a particular plan.",
+      "expected_behavior": "abstain_or_qualify",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-039",
+      "product": "Vision",
+      "source_url": "https://www.usaa.com/insurance/health/",
+      "source_section": "Vision",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Does the overview establish my exact vision copay?",
+      "reference_answer": "No. It describes exam coverage and a partner network but does not give a personal plan copay.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-040",
+      "product": "Supplemental gap",
+      "source_url": "https://www.usaa.com/insurance/health/",
+      "source_section": "Gap health coverage",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Who can the described gap plans pay directly?",
+      "reference_answer": "The insured person, rather than the hospital or doctor; plan-specific terms still apply.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-041",
+      "product": "Long-term care",
+      "source_url": "https://www.usaa.com/retirement/long-term-care/",
+      "source_section": "Understanding long-term care",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Does this page establish my daily long-term-care benefit?",
+      "reference_answer": "No. It explains care and planning but does not specify an individual's policy benefit.",
+      "expected_behavior": "abstain_or_qualify",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-042",
+      "product": "Pet",
+      "source_url": "https://www.usaa.com/insurance/additional/pet/",
+      "source_section": "An easy way to budget for your pet's care",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Is the described pet wellness plan itself insurance?",
+      "reference_answer": "No. Embrace's optional wellness plan is described as a budgeting plan, separate from accident and illness insurance.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-043",
+      "product": "Personal cyber",
+      "source_url": "https://www.usaa.com/insurance/additional/personal-cyber/",
+      "source_section": "The USAA Insurance Agency has teamed up with Upfort",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Does this page establish a dollar limit for identity theft coverage?",
+      "reference_answer": "No. It mentions Upfort and intended protection but provides no dollar limit; it says to check back for quotes.",
+      "expected_behavior": "abstain_or_qualify",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-044",
+      "product": "Travel",
+      "source_url": "https://www.usaa.com/insurance/additional/travel/",
+      "source_section": "Travel insurance benefits",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Does the page promise cancellation protection for any reason?",
+      "reference_answer": "No. It lists specified circumstances; that does not establish unrestricted cancel-for-any-reason coverage.",
+      "expected_behavior": "abstain_or_qualify",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-045",
+      "product": "Overseas",
+      "source_url": "https://www.usaa.com/insurance/overseas/",
+      "source_section": "We make moving your policies easy",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Can I assume coverage is offered in every country?",
+      "reference_answer": "No. The page refers to places USAA can cover and conversion in countries where coverage is offered.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    },
+    {
+      "id": "USAA-046",
+      "product": "Special events",
+      "source_url": "https://www.usaa.com/insurance/additional/event/",
+      "source_section": "Types of coverage you can get",
+      "reviewed_on": "2026-10-17",
+      "source_type": "public_product_description",
+      "access_status": "reviewed_public_page",
+      "question": "Are event liability and event cancellation the same protection?",
+      "reference_answer": "No. Liability concerns injury or venue damage, while cancellation can address lost deposits and fees for specified circumstances.",
+      "expected_behavior": "answer_with_conditions",
+      "must_check": [
+        "factual support",
+        "relevance",
+        "conditions and exclusions",
+        "citation accuracy",
+        "no unsupported personal coverage decision"
+      ],
+      "review_status": "researcher_drafted_not_independently_adjudicated"
+    }
+  ]
+}
