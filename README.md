@@ -7,6 +7,17 @@ Demonstrates **two distinct observability categories** using synthetic data:
 - `src/ml_drift.py`: traditional ML drift, changing predictions, and illustrative quality metrics. Saves local JSON/CSV reports. **This is NOT connected to Arize AX.**
 - `src/llm_traces.py`: deterministic synthetic RAG-like workflow, traced to **Arize Phoenix** using OTLP/HTTP. Simulates correct and incorrect answers, with a simple deterministic check against an approved synthetic policy. **This does NOT call a real LLM or run a Phoenix-native evaluation.**
 
+## Evaluation workflow
+
+```mermaid
+flowchart LR
+    A["Source data"] --> B["Python / Model"]
+    B --> C["Evaluations"]
+    C --> D["Phoenix"]
+```
+
+Source data provides the context or observed outcomes. Python runs the model and evaluation steps; Phoenix records traces, scores, and explanations for inspection.
+
 ## Requirements
 
 - Python 3.10+ (3.11 or 3.12 recommended)
