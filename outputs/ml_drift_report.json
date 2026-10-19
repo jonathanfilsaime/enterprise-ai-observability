@@ -1,0 +1,35 @@
+{
+  "warning": "Synthetic educational data; unadjusted KS p-values and illustrative model only.",
+  "feature_drift": {
+    "amount": {
+      "reference_mean": 68.543,
+      "current_mean": 154.571,
+      "ks_statistic": 0.4593,
+      "p_value": 0.0,
+      "flagged_p_below_0_05": true
+    },
+    "account_age_months": {
+      "reference_mean": 59.348,
+      "current_mean": 60.941,
+      "ks_statistic": 0.032,
+      "p_value": 0.4263068,
+      "flagged_p_below_0_05": false
+    },
+    "transactions_24h": {
+      "reference_mean": 2.95,
+      "current_mean": 6.067,
+      "ks_statistic": 0.548,
+      "p_value": 0.0,
+      "flagged_p_below_0_05": true
+    }
+  },
+  "predicted_fraud_rate_at_threshold_0_5": {
+    "reference": 0.0026666666666666666,
+    "current": 0.07733333333333334
+  },
+  "roc_auc_using_immediately_available_simulated_labels": {
+    "reference": 0.8219729223433242,
+    "current": 0.8273510301466065
+  },
+  "production_note": "Real labels may arrive late; monitor feature and prediction drift before accuracy is measurable."
+}

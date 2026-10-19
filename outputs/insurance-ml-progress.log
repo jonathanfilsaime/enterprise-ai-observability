@@ -1,0 +1,15 @@
+Data audit: {"frequency_rows": 678013, "severity_rows": 26639, "severity_unique_policies": 24950, "severity_rows_beyond_first_claim": 1689, "unmatched_severity_policy_ids": 6, "invalid_exposure_rows_removed": 0, "policies_with_positive_claim_count_but_no_positive_amount": 9116, "target_definition": "Sum of recorded severity amounts for each policy, zero if no matched severity record; not guaranteed complete ultimate loss."}
+Training policies: 120000 held-out policies: 30000
+/Users/jonathanfils-aime/Desktop/enterprise-ai-observability/.venv/lib/python3.12/site-packages/joblib/externals/loky/backend/context.py:134: UserWarning: Could not find the number of physical cores for the following reason:
+invalid literal for int() with base 10: ''
+Returning the number of logical cores instead. You can silence this warning by setting LOKY_MAX_CPU_COUNT to the number of cores you want to use.
+  warnings.warn(
+  File "/Users/jonathanfils-aime/Desktop/enterprise-ai-observability/.venv/lib/python3.12/site-packages/joblib/externals/loky/backend/context.py", line 264, in _count_physical_cores
+    cpu_count_physical = _count_physical_cores_darwin()
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jonathanfils-aime/Desktop/enterprise-ai-observability/.venv/lib/python3.12/site-packages/joblib/externals/loky/backend/context.py", line 420, in _count_physical_cores_darwin
+    return int(cpu_info)
+           ^^^^^^^^^^^^^
+baseline {"policies": 30000, "mae_eur": 159.5145541807472, "rmse_eur": 1694.1774319601338, "mean_actual_eur": 82.56924266666668, "mean_predicted_eur": 87.4419117499856, "mean_underprediction_eur": -4.872669083318939, "actual_total_eur": 2477077.2800000003, "predicted_total_eur": 2623257.352499568, "predicted_to_actual_ratio": 1.0590131255410682, "exposure_weighted_tweedie_deviance": 81.83736555331517}
+simulated_inflation {"policies": 30000, "mae_eur": 180.00555240166648, "rmse_eur": 2117.085492892308, "mean_actual_eur": 103.21155333333333, "mean_predicted_eur": 87.4419117499856, "mean_underprediction_eur": 15.769641583347731, "actual_total_eur": 3096346.5999999996, "predicted_total_eur": 2623257.352499568, "predicted_to_actual_ratio": 0.8472105004328547, "exposure_weighted_tweedie_deviance": 92.15376155145462}
+RESULT_DIR /Users/jonathanfils-aime/Desktop/enterprise-ai-observability/outputs/insurance-ml-20261017T233659Z

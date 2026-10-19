@@ -1,0 +1,12 @@
+{
+  "unit_tests_passed": 4,
+  "held_out_rows_per_batch": 30000,
+  "same_policy_ids": true,
+  "same_predictions": true,
+  "same_exposure": true,
+  "inflation_multiplier_verified": 1.25,
+  "csv_metric_recalculation_passed": true,
+  "phoenix_run_tagged_spans": 43,
+  "phoenix_code_annotations": 46,
+  "phoenix_batch_scores_match_report": true
+}
